@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		ABA48A650680BB600089EB4F /* AIASPluginFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA48A640680BB600089EB4F /* AIASPluginFilter.h */; };
+		ABA48A670680BB690089EB4F /* AIASPluginFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA48A660680BB690089EB4F /* AIASPluginFilter.m */; };
+		CC0B9DB5233DA22C001989BF /* info.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CC0B9DB4233DA22C001989BF /* info.pdf */; };
+		CC11B3051F7B800C001046B1 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC68720B1F7A76A500915DF9 /* Quartz.framework */; };
+		CC4AFF55233DC09400F071D9 /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4AFF54233DC09400F071D9 /* PDFKit.framework */; };
+		CC57DBD21F596B940065404B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CC57DBD01F596B940065404B /* icon.png */; };
+		CC59A3FC21C3607200D4B90A /* AIASInfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC59A3FE21C3607200D4B90A /* AIASInfoWindow.xib */; };
+		CC5A29A622D216F50082368F /* OsiriXAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5A29A422D216F40082368F /* OsiriXAPI.framework */; };
+		CC5A29A722D216F50082368F /* OsiriX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5A29A522D216F50082368F /* OsiriX.framework */; };
+		CC71413221C3D3E40084526E /* AIASInfoWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = CC71413021C3D3E30084526E /* AIASInfoWindowController.h */; };
+		CC71413321C3D3E40084526E /* AIASInfoWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC71413121C3D3E30084526E /* AIASInfoWindowController.m */; };
+		CC7AE18021B7D8EE001C3FED /* AIASWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC7AE18221B7D8EE001C3FED /* AIASWindow.xib */; };
+		CC8D30C322EE188200928C3C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8D30C222EE188200928C3C /* Accelerate.framework */; };
+		CC99DB2C1EBDD67500781A45 /* AIASWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = CC99DB2A1EBDD67500781A45 /* AIASWindowController.h */; };
+		CC99DB2D1EBDD67500781A45 /* AIASWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC99DB2B1EBDD67500781A45 /* AIASWindowController.m */; };
+		CCE1089E1F596D44005704D5 /* AIASPlugin_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = CCE1089D1F596D44005704D5 /* AIASPlugin_Prefix.pch */; };
+		CCEB3EF01F596A7B00BE379E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEB3EEF1F596A7B00BE379E /* AppKit.framework */; };
+		CCEB3EF51F596AE200BE379E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEB3EF41F596AE200BE379E /* Foundation.framework */; };
+		CCECA44B223E2180001D6192 /* AIASCore.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CCECA44A223E2180001D6192 /* AIASCore.mlmodel */; };
+		CCF3AD8A2237A8F200C2F441 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF3AD892237A8F200C2F441 /* CoreML.framework */; };
+		CCF6315D1F29C41D00FD5452 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF6315C1F29C41D00FD5452 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		ABA48A640680BB600089EB4F /* AIASPluginFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIASPluginFilter.h; path = Sources/AIASPluginFilter.h; sourceTree = "<group>"; };
+		ABA48A660680BB690089EB4F /* AIASPluginFilter.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = AIASPluginFilter.m; path = Sources/AIASPluginFilter.m; sourceTree = "<group>"; };
+		CC00C07C21B3A2FC0040F598 /* A.I.Segmentation.osirixplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A.I.Segmentation.osirixplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0B9DB4233DA22C001989BF /* info.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = info.pdf; path = Resources/info.pdf; sourceTree = "<group>"; };
+		CC3D924E21BF9E4200EBD09E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AIASWindow.xib; sourceTree = "<group>"; };
+		CC4AFF54233DC09400F071D9 /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = System/Library/Frameworks/PDFKit.framework; sourceTree = SDKROOT; };
+		CC57DBD01F596B940065404B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icon.png; sourceTree = "<group>"; };
+		CC59A3FD21C3607200D4B90A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AIASInfoWindow.xib; sourceTree = "<group>"; };
+		CC5A29A422D216F40082368F /* OsiriXAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OsiriXAPI.framework; path = Frameworks/OsiriXAPI.framework; sourceTree = "<group>"; };
+		CC5A29A522D216F50082368F /* OsiriX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OsiriX.framework; path = Frameworks/OsiriX.framework; sourceTree = "<group>"; };
+		CC68720B1F7A76A500915DF9 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		CC71413021C3D3E30084526E /* AIASInfoWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIASInfoWindowController.h; path = Sources/AIASInfoWindowController.h; sourceTree = "<group>"; };
+		CC71413121C3D3E30084526E /* AIASInfoWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AIASInfoWindowController.m; path = Sources/AIASInfoWindowController.m; sourceTree = "<group>"; };
+		CC8D30C222EE188200928C3C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		CC99DB2A1EBDD67500781A45 /* AIASWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIASWindowController.h; path = Sources/AIASWindowController.h; sourceTree = "<group>"; };
+		CC99DB2B1EBDD67500781A45 /* AIASWindowController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = AIASWindowController.m; path = Sources/AIASWindowController.m; sourceTree = "<group>"; };
+		CCE1089D1F596D44005704D5 /* AIASPlugin_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIASPlugin_Prefix.pch; sourceTree = "<group>"; };
+		CCEB3EEF1F596A7B00BE379E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CCEB3EF41F596AE200BE379E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCECA44A223E2180001D6192 /* AIASCore.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = AIASCore.mlmodel; path = Resources/AIASCore.mlmodel; sourceTree = "<group>"; };
+		CCF3AD892237A8F200C2F441 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		CCF6315C1F29C41D00FD5452 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8D30C322EE188200928C3C /* Accelerate.framework in Frameworks */,
+				CC5A29A622D216F50082368F /* OsiriXAPI.framework in Frameworks */,
+				CC5A29A722D216F50082368F /* OsiriX.framework in Frameworks */,
+				CCEB3EF01F596A7B00BE379E /* AppKit.framework in Frameworks */,
+				CCEB3EF51F596AE200BE379E /* Foundation.framework in Frameworks */,
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+				CCF6315D1F29C41D00FD5452 /* CoreGraphics.framework in Frameworks */,
+				CCF3AD8A2237A8F200C2F441 /* CoreML.framework in Frameworks */,
+				CC4AFF55233DC09400F071D9 /* PDFKit.framework in Frameworks */,
+				CC11B3051F7B800C001046B1 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* MyNewPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks */,
+				CC00C07C21B3A2FC0040F598 /* A.I.Segmentation.osirixplugin */,
+			);
+			name = MyNewPlugin;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC8D30C222EE188200928C3C /* Accelerate.framework */,
+				CCEB3EEF1F596A7B00BE379E /* AppKit.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				CCF6315C1F29C41D00FD5452 /* CoreGraphics.framework */,
+				CCF3AD892237A8F200C2F441 /* CoreML.framework */,
+				CCEB3EF41F596AE200BE379E /* Foundation.framework */,
+				CC5A29A522D216F50082368F /* OsiriX.framework */,
+				CC5A29A422D216F40082368F /* OsiriXAPI.framework */,
+				CC4AFF54233DC09400F071D9 /* PDFKit.framework */,
+				CC68720B1F7A76A500915DF9 /* Quartz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CCECA44A223E2180001D6192 /* AIASCore.mlmodel */,
+				CC7AE18221B7D8EE001C3FED /* AIASWindow.xib */,
+				CC59A3FE21C3607200D4B90A /* AIASInfoWindow.xib */,
+				CC57DBD01F596B940065404B /* icon.png */,
+				CC0B9DB4233DA22C001989BF /* info.pdf */,
+				CCE1089D1F596D44005704D5 /* AIASPlugin_Prefix.pch */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AB2C26750677B0C400A08910 /* AIAS */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		AB2C26750677B0C400A08910 /* AIAS */ = {
+			isa = PBXGroup;
+			children = (
+				ABA48A640680BB600089EB4F /* AIASPluginFilter.h */,
+				ABA48A660680BB690089EB4F /* AIASPluginFilter.m */,
+				CC99DB2A1EBDD67500781A45 /* AIASWindowController.h */,
+				CC99DB2B1EBDD67500781A45 /* AIASWindowController.m */,
+				CC71413021C3D3E30084526E /* AIASInfoWindowController.h */,
+				CC71413121C3D3E30084526E /* AIASInfoWindowController.m */,
+			);
+			name = AIAS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D5B49AD048680CD000E48DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC71413221C3D3E40084526E /* AIASInfoWindowController.h in Headers */,
+				CCE1089E1F596D44005704D5 /* AIASPlugin_Prefix.pch in Headers */,
+				ABA48A650680BB600089EB4F /* AIASPluginFilter.h in Headers */,
+				CC99DB2C1EBDD67500781A45 /* AIASWindowController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* OsiriXPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6A9A9008AC841300D0C1EE /* Build configuration list for PBXNativeTarget "OsiriXPlugin" */;
+			buildPhases = (
+				8D5B49AD048680CD000E48DA /* Headers */,
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+				8D5B49B5048680CD000E48DA /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OsiriXPlugin;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = Invert;
+			productReference = CC00C07C21B3A2FC0040F598 /* A.I.Segmentation.osirixplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = CE6A9A9408AC841300D0C1EE /* Build configuration list for PBXProject "AIAoSegPlugin" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				ja,
+				Base,
+				en,
+				fr,
+				de,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* MyNewPlugin */;
+			productRefGroup = 089C166AFE841209C02AAC07 /* MyNewPlugin */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* OsiriXPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC57DBD21F596B940065404B /* icon.png in Resources */,
+				CC7AE18021B7D8EE001C3FED /* AIASWindow.xib in Resources */,
+				CC0B9DB5233DA22C001989BF /* info.pdf in Resources */,
+				CC59A3FC21C3607200D4B90A /* AIASInfoWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D5B49B5048680CD000E48DA /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC99DB2D1EBDD67500781A45 /* AIASWindowController.m in Sources */,
+				CCECA44B223E2180001D6192 /* AIASCore.mlmodel in Sources */,
+				ABA48A670680BB690089EB4F /* AIASPluginFilter.m in Sources */,
+				CC71413321C3D3E40084526E /* AIASInfoWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC59A3FE21C3607200D4B90A /* AIASInfoWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC59A3FD21C3607200D4B90A /* Base */,
+			);
+			name = AIASInfoWindow.xib;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CC7AE18221B7D8EE001C3FED /* AIASWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3D924E21BF9E4200EBD09E /* Base */,
+			);
+			name = AIASWindow.xib;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE6A9A9108AC841300D0C1EE /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_STATIC_ANALYZER_MODE = shallow;
+				CLANG_X86_VECTOR_INSTRUCTIONS = default;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Y5FE5M8RRY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AIASPlugin_Prefix.pch;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = Bundle;
+				LLVM_LTO = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.4.1;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TDHM.A.I.Segmentation141;
+				PRODUCT_NAME = A.I.Segmentation;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = YES;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = x86_64;
+				VERSIONING_SYSTEM = "apple-generic";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = osirixplugin;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		CE6A9A9208AC841300D0C1EE /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_STATIC_ANALYZER_MODE = shallow;
+				CLANG_X86_VECTOR_INSTRUCTIONS = default;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Y5FE5M8RRY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AIASPlugin_Prefix.pch;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = Bundle;
+				LLVM_LTO = YES_THIN;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.4.1;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TDHM.A.I.Segmentation141;
+				PRODUCT_NAME = A.I.Segmentation;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = YES;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = x86_64;
+				VERSIONING_SYSTEM = "apple-generic";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = osirixplugin;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		CE6A9A9508AC841300D0C1EE /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		CE6A9A9608AC841300D0C1EE /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE6A9A9008AC841300D0C1EE /* Build configuration list for PBXNativeTarget "OsiriXPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6A9A9108AC841300D0C1EE /* Development */,
+				CE6A9A9208AC841300D0C1EE /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		CE6A9A9408AC841300D0C1EE /* Build configuration list for PBXProject "AIAoSegPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6A9A9508AC841300D0C1EE /* Development */,
+				CE6A9A9608AC841300D0C1EE /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
