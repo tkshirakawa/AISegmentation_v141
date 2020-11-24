@@ -1,7 +1,7 @@
 # A.I.Segmentation version 1.4.1
 The Xcode project of the previous version 1.4.1.  
   
-You can download the latest AIS plugin from [HERE](https://compositecreatures.jimdofree.com/a-i-segmentation/download/).  
+You can download the latest AIS plugin from [HERE](https://compositecreatures.jimdofree.com/a-i-segmentation/).  
 *(The source code of the latest version is not public)*  
   
   
